@@ -1,17 +1,1 @@
-{
-	"status": "OK",
-	"tag": "payRequest",
-	"commentAllowed": 255,
-	"callback": "https://getalby.com/lnurlp/wil/callback",
-	"metadata": "[[\"text/identifier\",\"wbrasil@getalby.com\"],[\"text/plain\",\"Sats for Wil\"]]",
-	"minSendable": 10,
-	"maxSendable": 11000000000,
-	"payerData": {
-		"name": {
-			"mandatory": false
-		},
-		"email": {
-			"mandatory": false
-		}
-	}
-}
+{"status":"OK","tag":"payRequest","commentAllowed":255,"callback":"https://getalby.com/lnurlp/wbrasil/callback","metadata":"[[\"text/identifier\",\"wbrasil@getalby.com\"],[\"text/plain\",\"Sats for wbrasil\"]]","minSendable":1000,"maxSendable":11000000000,"payerData":{"name":{"mandatory":false},"email":{"mandatory":false}}}
