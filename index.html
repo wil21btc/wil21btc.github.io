@@ -54,13 +54,11 @@
     // preenchendo a tela toda de preto com opacidade
     // esse truque da opacidade será útil para o efeito 
     // das letras sumindo aos poucos
-    ctx.fillStyle = "rgba(255, 255, 255, 0.05)";
-    // ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+    ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
     ctx.fillRect(0, 0, c.width, c.height);
 
     // definindo a cor e estilo da fonte
-    ctx.fillStyle = "#1b1b1b";
-    // ctx.fillStyle = "#0F0";
+    ctx.fillStyle = "white";
     ctx.font = `${fontSize}px arial`;
 
     for (let i = 0; i < drops.length; i++) {
