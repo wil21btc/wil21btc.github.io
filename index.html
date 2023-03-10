@@ -19,6 +19,15 @@
         canvas {
           display: block;
         }
+		
+		.widget {
+			width: 250px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin: -170px 0 0 -175px;
+			height: 340px;
+		}
       </style>
 
 </head>
@@ -26,9 +35,21 @@
 <body>
 
     <canvas id="matrix"></canvas>
+	
+	<div class="widget">
+		<lightning-widget 
+		  name="wil ⚡︎" 
+		  accent="#ffffff" 
+		  to="wil@wil.bio" 
+		  image="https://media3.giphy.com/media/3I5GByIcXBTj5MBnKi/giphy.gif?cid=6c09b952601f9aa2ffd55d193a493763f093c770c38c1dcd&rid=giphy.gif&ct=g" 
+		  amounts="7,21,77"
+		  labels="⚡︎ 7, ⚡︎ 21, ⚡︎ 77" 
+		/>
+	</div>
 
 </body>
 
+<script src="https://embed.twentyuno.net/js/app.js"></script>
 <script>
     // Pegando o elemento do Canvas
     const c = document.getElementById("matrix");
